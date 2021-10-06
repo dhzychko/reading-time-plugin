@@ -30,7 +30,7 @@ class Test {
 	}
 
 	public function initialize() {
-		include_once plugin_dir_path( __DIR__ ) . '/test/helper-functions.php';
+		include_once plugin_dir_path( __FILE__ ) . 'helper-functions.php';
 	}
 
 	public function recalculate_reading_time() {
